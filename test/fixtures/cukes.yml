@@ -1,0 +1,9 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  cuke_version: MyString
+  webrat_version: MyString
+
+two:
+  cuke_version: MyString
+  webrat_version: MyString

@@ -1,0 +1,2 @@
+module CukesHelper
+end
