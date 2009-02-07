@@ -4,7 +4,7 @@ Feature: Manage cukes
 
   Scenario Outline: Testing scenario outlines
     Given there are <cuke_versions>
-    More Examples:
+    Examples:
       |cuke_versions |
       |cuke_version 1|
       |cuke_version 2|
