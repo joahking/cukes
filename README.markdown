@@ -2,7 +2,7 @@
 
 The idea is to get Cucumber running features of Webrat together with Celerity. Right now they are running together, only **I need some help getting celerity waiting for Ajax responses**, see error in [gist](http://gist.github.com/68481).
 
-The features directory is set up like recommended in http://wiki.github.com/aslakhellesoy/cucumber/setting-up-selenium
+The features directory is set up like recommended in cucumber wiki [setting up selenium](http://wiki.github.com/aslakhellesoy/cucumber/setting-up-selenium)
 
 Webrat and Celerity steps are both using (there's still cleaning to do) the same API (the webrat one) so you have common steps in features/step_definitions/webrat_steps.rb and celerity only in features/step_definitions/celerity_steps.rb
 
