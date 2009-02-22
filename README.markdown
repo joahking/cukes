@@ -1,6 +1,6 @@
 # Project to test Cucumber running Webrat and Celerity together
 
-The idea is to get Cucumber running features of Webrat together with Celerity. Right now they are running together, only **I need some help getting celerity waiting for Ajax responses**, see error in gist http://gist.github.com/68481.
+The idea is to get Cucumber running features of Webrat together with Celerity. Right now they are running together, only **I need some help getting celerity waiting for Ajax responses**, see error in [gist](http://gist.github.com/68481).
 
 The features directory is set up like recommended in http://wiki.github.com/aslakhellesoy/cucumber/setting-up-selenium
 
