@@ -1,0 +1,3 @@
+webrat: -r features/support/env.rb -r features/support/webrat.rb -r features/step_definitions/webrat_steps.rb features/plain
+celerity: -r features/support/env.rb -r features/support/culerity.rb -r features/step_definitions/culerity_steps.rb features/celerity
+
