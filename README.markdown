@@ -11,17 +11,21 @@ Webrat and Celerity steps are both using (there's still cleaning to do) the same
 $ rake db:migrate
 
 create a pids directory for jruby process handling
+
 $ mkdir tmp/pids -p
 
 start your test server to have celerity requesting resources
+
 $ ruby script/server -p 80 -e test
 
 ## run your features
 
 There are Webrat features in features/plain then you run them with:
+
 $ cucumber -p webrat
 
 There are Celerity only features in features/celerity you run them with:
+
 $ cucumber -p celerity
 
 ## more details
@@ -39,6 +43,7 @@ Inside features/support/webrat.rb and celerity.rb the needed setups for each are
 ## JRuby processes remaining in memory:
 
 sometimes you can have jruby processes alive when they should not, kill them:
+
 $ ps aux | grep jruby | awk '{ print $2 }' | xargs kill TERM
 
 # TODO
