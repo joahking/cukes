@@ -27,6 +27,9 @@ Inside features/support/webrat.rb and celerity.rb the needed setups for each are
 
 $ rake db:migrate
 
+create a pids directory
+$ mkdir tmp/pids -p
+
 start your test server to have celerity requesting resources
 $ ruby script/server -p 80 -e test
 
